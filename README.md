@@ -1,6 +1,3 @@
-# github-pages-demo
-A demonstration of GitHub pages in action!
-
 # 👋 Hi there, I'm Andrew! 
 
 Welcome to my little corner of GitHub where **music meets code, and coffee fuels creativity** ☕🎶💻.
