@@ -1,4 +1,8 @@
 title: "Andrew's Gothic Palace"
 description: "Where music, design, and code collide"
 author: "Andrew"
-theme: jekyll-theme-cayman
+
+theme: jekyll-theme-cayman  # <-- This is the magic line, DO NOT remove it
+
+# Optional (but helps if GitHub gets cranky)
+markdown: kramdown
