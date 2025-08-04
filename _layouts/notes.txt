@@ -1,0 +1,142 @@
+# Jekyll + GitHub Pages Starter
+
+---
+
+## Folder Structure:
+```
+my-awesome-site/
+├── _config.yml
+├── index.md
+├── _layouts/
+│   └── default.html
+├── _posts/
+│   └── 2025-08-04-welcome-to-my-site.md
+└── assets/
+    └── style.css
+```
+
+---
+
+## 1. _config.yml
+```yaml
+title: "Andrew's Gothic Palace"
+description: "Where music, design, and code collide"
+author: "Andrew"
+baseurl: "" # Leave empty for GitHub Pages
+url: "https://yourusername.github.io"
+theme: minima # You can change this to other themes later!
+```
+
+---
+
+## 2. index.md
+```markdown
+---
+layout: default
+title: Welcome
+---
+
+# 👋 Welcome to My World
+
+This is my personal site built with **Jekyll** and hosted on **GitHub Pages**.
+
+- 🎸 Bass Grooves
+- 🎷 Sax Solos
+- 🖥️ Code Experiments
+- 📸 Photo Stories
+
+[Check out my latest blog post!](/blog)
+```
+
+---
+
+## 3. _layouts/default.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>Made with ❤️ by {{ site.author }}</p>
+  </footer>
+</body>
+</html>
+```
+
+---
+
+## 4. _posts/2025-08-04-welcome-to-my-site.md
+```markdown
+---
+layout: default
+title: "Welcome to My Site"
+---
+
+## 🎉 First Post!
+
+Hello world! This is my first post on my new Jekyll-powered site.
+Stay tuned for more musical, photographic, and coding adventures.
+```
+
+---
+
+## 5. assets/style.css
+```css
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #111;
+  color: #eee;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #9E2102;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background: #222;
+  color: #aaa;
+}
+
+a {
+  color: #ff6347;
+}
+```
+
+---
+
+## 🚀 Deployment Steps:
+1. Create a new repo called `yourusername.github.io`
+2. Add these files into the repo.
+3. Push it to GitHub.
+4. Visit `https://yourusername.github.io` and BAM! Your Gothic Jekyll lair is live!
+
+---
+
+Want me to teach you how to **customize the Jekyll theme or add blog posts dynamically?** Let me know, Rockstar! 🎤🔥

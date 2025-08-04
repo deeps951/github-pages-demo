@@ -1,0 +1,9 @@
+## 1. _config.yml
+  ```yaml
+title: "Andrew's Gothic Palace"
+description: "Where music, design, and code collide"
+author: "Andrew"
+baseurl: "" # Leave empty for GitHub Pages
+url: "https://yourusername.github.io"
+theme: minima # You can change this to other themes later!
+  ```
