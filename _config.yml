@@ -1,4 +1,4 @@
 title: "Andrew's Gothic Palace"
 description: "Where music, design, and code collide"
 author: "Andrew"
-remote_theme: pages-themes/cayman@v0.2.0
+theme: jekyll-theme-cayman
